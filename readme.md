@@ -132,7 +132,9 @@ Here's the output:
 
 I'm ready to turn this script into a ruby class. 
 
-Pre-refactor, commit :
+Pre-refactor, commit `afcdca8`
+
+
 
 
 ### Resources
