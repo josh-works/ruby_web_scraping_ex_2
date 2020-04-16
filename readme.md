@@ -141,7 +141,21 @@ Now it's two ruby classes, write the text by running
 $ ruby writer.rb
 ```
 
-Sinatra Time!
+### Sinatra Time!
+
+OK, added Sinatra in about... 8 minutes? It's an ugly UI:
+
+`app.rb`, `Gemfile`, `views/default.erb`
+
+![uuuugly](/images/denver_post_06.jpg)
+
+The repo is at `ab66bc0`
+
+### Add Styles
+
+adding `public/styles.css`
+
+
 
 
 ### Resources

@@ -3,10 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Metropolitan Districts!</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <p>
-      <%= paragraphs %>
-    </p>
+    <h1>Metropolitan Districts</h1>
+    
+    <h3>Robert Moses and Metropolitan Districts Would Be Friends</h3>
+    <% paragraphs.each do |sentance| %>
+      <p><%= sentance %></p>
+    <% end %>
   </body>
+  
+  <footer class="footer">
+    <p>Made with ❤️ by <a href="https://josh.works/">josh thompson</a></p>
+    <a href="https://github.com/josh-works/ruby_web_scraping">Git repo for this little project</a>
+    <br>
+  </footer>
 </html>
