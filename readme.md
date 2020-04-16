@@ -135,6 +135,13 @@ I'm ready to turn this script into a ruby class.
 Pre-refactor, commit `afcdca8`
 
 
+Now it's two ruby classes, write the text by running
+
+```
+$ ruby writer.rb
+```
+
+Sinatra Time!
 
 
 ### Resources
