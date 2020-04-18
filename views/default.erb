@@ -6,17 +6,24 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Metropolitan Districts</h1>
+    <div class="container">
+        
+      <header>
+        <h1 class="title">Metropolitan Districts</h1>
+        
+      </header>
+      
+      <h3>Robert Moses and Metropolitan Districts Would Be Friends</h3>
+      <div class="square1">
+        <%= quote %>
+      </div>
+      
+    </div>
     
-    <h3>Robert Moses and Metropolitan Districts Would Be Friends</h3>
-    <% paragraphs.each do |sentance| %>
-      <p><%= sentance %></p>
-    <% end %>
+    <footer class="footer">
+      <p>Made with ❤️ by <a href="https://josh.works/">josh thompson</a></p>
+      <a href="https://github.com/josh-works/ruby_web_scraping_ex_2">Git repo for this little project</a>
+      <br>
+    </footer>
   </body>
-  
-  <footer class="footer">
-    <p>Made with ❤️ by <a href="https://josh.works/">josh thompson</a></p>
-    <a href="https://github.com/josh-works/ruby_web_scraping_ex_2">Git repo for this little project</a>
-    <br>
-  </footer>
 </html>
