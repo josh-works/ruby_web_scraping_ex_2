@@ -156,6 +156,12 @@ The repo is at `ab66bc0`
 adding `public/styles.css`
 
 
+#### CSS Grid
+
+My other project was a disaster for css. I want to be able to _quickly_ hand-roll solid HTML/CSS one-pagers. A header, footer, and a few rows of body content. It should look snappy. Landing on [CSS Grid (css-tricks.com)](https://css-tricks.com/snippets/css/complete-guide-grid/)
+
+Taking a break. 2 hours in.
+
 
 
 ### Resources
