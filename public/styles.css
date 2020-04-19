@@ -28,6 +28,20 @@ html {
   html {font-size: 23px;}
 }
 
+.hidden {
+  display: none;
+}
+
+#quote-0 {
+  display: block;
+}
+#quote-1 {
+  display: block;
+}
+#quote-2 {
+  display: block;
+}
+
 .container {
     position: relative;
     width: 100%;

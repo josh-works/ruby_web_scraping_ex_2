@@ -15,14 +15,25 @@
       
       <h3>Robert Moses and Metropolitan Districts Would Be Friends</h3>
       <div class="square1">
-        <%= quote %>
+        <%= sentance %>
+      </div>
+      
+      <div class="all_sentances">
+        <% sentances.each_with_index do |s, i| %>
+          <div class="hidden" id="quote-<%= i %>">
+            <p><%= s %></p>
+            <p><%= i %></p>
+            
+          </div>
+        <% end %>
       </div>
       
     </div>
     
     <footer class="footer">
       <p>Made with ❤️ by <a href="https://josh.works/">josh thompson</a></p>
-      <a href="https://github.com/josh-works/ruby_web_scraping_ex_2">Git repo for this little project</a>
+      <p><a href="https://github.com/josh-works/ruby_web_scraping_ex_2">Git repo for this little project</a></p>
+      <p>This tiny project is part of <a href="https://intermediateruby.com/">Intermediate Ruby</a></p>
       <br>
     </footer>
   </body>

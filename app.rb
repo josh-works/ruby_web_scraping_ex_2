@@ -1,14 +1,21 @@
 require 'sinatra'
 
 get '/' do
-  quote = load_text_file
-  p quote
-  erb :default, locals: { quote: quote }
+  sentance = random_sentance
+  sentances = load_text_file
+  erb :default, locals: { 
+    sentance: sentance,
+    sentances: sentances
+   }
 end
 
 
 private
 
 def load_text_file
-  sentances = File.new('./sentances.txt').read.split("\n").sample
+  @load_text_file ||= File.new('./sentances.txt').read.split("\n")
+end
+
+def random_sentance
+  load_text_file.sample
 end
